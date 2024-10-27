@@ -1,0 +1,1 @@
+This directory contains Images for rendering into README.md and mockup image.
