@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am familiar with classics like
               <i >
-                <b className = "purple" > Python, PyTorch and AWS. </b >
+                <b className = "purple" >  Python, PyTorch and AWS. </b >
               </i >
               <br />
               <br />
@@ -42,7 +42,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing solutions
               with
               <i >
-                <b className = "purple" >Python </b >
+                <b className = "purple" > Python, </b >
               </i >
               <i >
               <b className = "purple" >
