@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.tech-text {
+  font-size: 12px; /* Adjust the size as needed */
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -9,23 +9,24 @@ import {
 } from "react-icons/si";
 
 function Toolstack() {
+  const tools = [
+    { icon: <SiMacos />, name: "macOS" },
+    { icon: <SiPycharm />, name: "PyCharm" },
+    { icon: <SiHeroku />, name: "Heroku" },
+    { icon: <SiSlack />, name: "Slack" },
+    { icon: <SiNotion />, name: "Notion" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNotion />
-      </Col>
+      {tools.map((tool, index) => (
+        <Col xs={4} md={2} className="tech-icons" key={index}>
+          {tool.icon}
+          <div style={{ fontSize: "12px", fontFamily: "Arial, sans-serif" }}>
+            {tool.name}
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }
