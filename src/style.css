@@ -321,6 +321,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .home-about-description {
@@ -334,6 +335,8 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  color: white !important;
+  background-color: transparent !important;
 }
 
 .home-about-social {
@@ -405,7 +408,9 @@ button:focus {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
+  width: 100% !important;
+  margin-top: auto; /* This pushes the footer to the bottom */
 }
 .footer-copywright {
   text-align: center !important;
@@ -449,6 +454,10 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  min-height: calc(100vh - 174px) !important;
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .project-card {
@@ -548,6 +557,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: calc(100vh - 174px) !important;
 }
 
 .tech-icons {
@@ -608,6 +618,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: calc(100vh - 174px) !important;
 }
 
 .resume {
@@ -740,4 +751,255 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* Experience */
+/* --------- */
+
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  width: 100% !important;
+  min-height: calc(100vh - 174px) !important; /* Accounting for navbar and footer */
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Timeline container */
+.timeline-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Timeline vertical line */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--imp-text-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  border-radius: 10px;
+}
+
+/* Timeline items */
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+/* Left items */
+.timeline-item.left {
+  left: 0;
+}
+
+/* Right items */
+.timeline-item.right {
+  left: 50%;
+}
+
+/* The circular badge on the timeline */
+.timeline-badge {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: -20px;
+  background-color: var(--imp-text-color);
+  border: 4px solid #c95bf5;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-item.right .timeline-badge {
+  left: -20px;
+}
+
+/* Timeline content styling */
+.timeline-content {
+  padding: 20px 30px;
+  background-color: rgba(23, 15, 35, 0.8);
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Arrow pointing to timeline for left items */
+.timeline-item.left .timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 22px;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid rgba(23, 15, 35, 0.8);
+}
+
+/* Arrow pointing to timeline for right items */
+.timeline-item.right .timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid rgba(23, 15, 35, 0.8);
+}
+
+.company-logo-container {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 20px !important;
+}
+
+.company-logo {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid var(--imp-text-color) !important;
+  padding: 5px !important;
+  background-color: white !important;
+}
+
+.experience-role {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.experience-company {
+  color: var(--imp-text-color) !important;
+  font-size: 1.2rem;
+  margin-bottom: 5px !important;
+  font-weight: 500;
+  text-align: center;
+}
+
+.experience-date {
+  color: #b8a9c9 !important;
+  margin-bottom: 15px !important;
+  text-align: center;
+  font-style: italic;
+}
+
+.experience-description {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background-color: rgba(201, 91, 245, 0.3);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(201, 91, 245, 0.6);
+}
+
+.company-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: var(--imp-text-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.company-link:hover {
+  background-color: #a24dd3;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 768px) {
+  .timeline-container::after {
+    left: 31px;
+  }
+  
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    left: 0 !important;
+  }
+  
+  .timeline-badge {
+    left: 15px !important;
+    right: auto !important;
+  }
+  
+  .timeline-item.left .timeline-content::before,
+  .timeline-item.right .timeline-content::before {
+    left: -15px;
+    border-right: 15px solid rgba(23, 15, 35, 0.8);
+    border-left: 0;
+  }
+}
+
+/* Fix for footer positioning */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Experience Description List */
+.experience-description-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+  color: white;
+}
+
+.experience-description-list li {
+  margin-bottom: 5px;
 }

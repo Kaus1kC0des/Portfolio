@@ -1,26 +1,24 @@
 import React from "react";
 import { Col, Row, Card } from "react-bootstrap";
 import { DiPython } from "react-icons/di";
-import { SiGit, SiMysql, SiPandas, SiNumpy, SiScikitlearn, SiFlask, SiPytorch, SiWeightsandbiases, SiTableau, SiLinux, SiAmazonaws, SiDigitalocean, SiOpencv } from "react-icons/si";
-import { FaChartBar } from "react-icons/fa"; // For Matplotlib
+import { SiGit, SiMysql, SiMongodb, SiScikitlearn, SiFlask, SiPytorch, SiWeightsandbiases, SiLinux, SiAmazonaws, SiDigitalocean, SiFastapi, SiChainlink, SiOpencv } from "react-icons/si";
 
 function Techstack() {
   const techs = [
     { icon: <DiPython />, name: "Python" },
-    { icon: <SiGit />, name: "Git" },
-    { icon: <SiMysql />, name: "MySQL" },
-    { icon: <SiPandas />, name: "Pandas" },
-    { icon: <SiNumpy />, name: "NumPy" },
-    { icon: <FaChartBar />, name: "Matplotlib" },
-    { icon: <SiScikitlearn />, name: "Scikit-learn" },
-    { icon: <SiFlask />, name: "Flask" },
-    { icon: <SiOpencv />, name: "OpenCV" },
     { icon: <SiPytorch />, name: "PyTorch" },
-    { icon: <SiWeightsandbiases />, name: "Weights & Biases" },
-    { icon: <SiTableau />, name: "Tableau" },
+    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiChainlink />, name: "LangChain" },
+    { icon: <SiScikitlearn />, name: "Scikit-learn" },
+    { icon: <SiOpencv />, name: "OpenCV" },
+    { icon: <SiFlask />, name: "Flask" },
+    { icon: <SiMongodb />, name: "MongoDB" },
+    { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiGit />, name: "Git" },
     { icon: <SiLinux />, name: "Linux" },
     { icon: <SiAmazonaws />, name: "AWS" },
     { icon: <SiDigitalocean />, name: "DigitalOcean" },
+    { icon: <SiWeightsandbiases />, name: "Weights & Biases" },
   ];
 
   return (

@@ -15,50 +15,49 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.4em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className = "home-about-body" >
+            <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I believe… 🤷‍♂️
               <br />
               <br />I am familiar with classics like
-              <i >
-                <b className = "purple" >  Python, PyTorch and AWS. </b >
-              </i >
+              <i>
+                <b className="purple">  Python, PyTorch and AWS. </b>
+              </i>
               <br />
               <br />
               My field of Interest's are solving challenging problems using &nbsp;
-              <i >
-                <b className = "purple" >Machine Learning and Artificial Intelligence </b > and
-                                                                                            also in areas related
-                                                                                            to{" "}
-                <b className = "purple" >
+              <i>
+                <b className="purple">Machine Learning and Artificial Intelligence </b> and
+                also in areas related to{" "}
+                <b className="purple">
                   Finance, Healthcare and Education.
-                </b >
-              </i >
+                </b>
+              </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing solutions
               with
-              <i >
-                <b className = "purple" > Python, </b >
-              </i >
-              <i >
-              <b className = "purple" >
+              <i>
+                <b className="purple"> Python, </b>
+              </i>
+              <i>
+              <b className="purple">
                   {" "}
                   PyTorch
-                </b >
-              </i >
+                </b>
+              </i>
               &nbsp; and other
-              <b className = "purple" > Web Frameworks </b >
+              <b className="purple"> Web Frameworks </b>
               like
-              <i >
-                <b className = "purple" > Flask</b >
-              </i >
-            </p >
-          </Col >
-          <Col md = {4} className="myAvtar">
+              <i>
+                <b className="purple"> Flask</b>
+              </i>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
