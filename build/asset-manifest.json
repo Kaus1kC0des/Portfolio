@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e75ed50.css",
-    "main.js": "/static/js/main.09a80024.js",
+    "main.css": "/static/css/main.653681bb.css",
+    "main.js": "/static/js/main.27454d35.js",
     "static/js/770.b477def6.chunk.js": "/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/brainImage.png": "/static/media/brainImage.90028a9de2867b3dd2b1.png",
+    "static/media/jigsawImage.png": "/static/media/jigsawImage.2a77766b3b51f1a4dad2.png",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/voice.png": "/static/media/voice.3ecfe519a2f6db09961b.png",
     "static/media/tumor.png": "/static/media/tumor.7902192a3e7ce59c626c.png",
-    "static/media/Kausik D Resume.pdf": "/static/media/Kausik D Resume.8e580fe7cae76b809b59.pdf",
+    "static/media/Kausik D Resume .pdf": "/static/media/Kausik D Resume .3f2fbd8a620800d0ee1d.pdf",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -15,13 +17,13 @@
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.1e75ed50.css.map": "/static/css/main.1e75ed50.css.map",
-    "main.09a80024.js.map": "/static/js/main.09a80024.js.map",
+    "main.653681bb.css.map": "/static/css/main.653681bb.css.map",
+    "main.27454d35.js.map": "/static/js/main.27454d35.js.map",
     "770.b477def6.chunk.js.map": "/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e75ed50.css",
-    "static/js/main.09a80024.js"
+    "static/css/main.653681bb.css",
+    "static/js/main.27454d35.js"
   ]
 }
