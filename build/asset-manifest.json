@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.653681bb.css",
-    "main.js": "/static/js/main.b1556cab.js",
+    "main.js": "/static/js/main.54ae0056.js",
     "static/js/770.b477def6.chunk.js": "/static/js/770.b477def6.chunk.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/brainImage.png": "/static/media/brainImage.90028a9de2867b3dd2b1.png",
@@ -9,7 +9,7 @@
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/voice.png": "/static/media/voice.3ecfe519a2f6db09961b.png",
     "static/media/tumor.png": "/static/media/tumor.7902192a3e7ce59c626c.png",
-    "static/media/Kausik D Resume .pdf": "/static/media/Kausik D Resume .bbb5b3328f0c1c592544.pdf",
+    "static/media/Kausik D Resume .pdf": "/static/media/Kausik D Resume .c9444c23d7190234953a.pdf",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.653681bb.css.map": "/static/css/main.653681bb.css.map",
-    "main.b1556cab.js.map": "/static/js/main.b1556cab.js.map",
+    "main.54ae0056.js.map": "/static/js/main.54ae0056.js.map",
     "770.b477def6.chunk.js.map": "/static/js/770.b477def6.chunk.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.653681bb.css",
-    "static/js/main.b1556cab.js"
+    "static/js/main.54ae0056.js"
   ]
 }
