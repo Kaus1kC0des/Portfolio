@@ -8,16 +8,29 @@ import hclLogo from "../../Assets/hclLogo.png"
 function Experience() {
   const experiences = [
     {
-      title: "Developer Intern",
-      company: "Qik Meetings",
+      title: "AI Product Engineer",
+      company: "Qik Office",
       logo: qikLogo,
-      date: "Aug 2024 - Sept 2025",
+      date: "July 2026 - Present",
       description: [
-        "Led the development of AI-powered voice diarization solutions",
-        "Built and maintained infrastructure for API services with focus on low latency",
-        "Built a LLM application to help users query on meeting data"
+        "Engineered a speech/NLP transcription and diarization pipeline (Whisper + Pyannote), evaluated at 95% speaker-attribution accuracy and 7–9 min per audio hour; adopted by 95% of enterprise customers.",
+        "Wrote a custom MCP server exposing Qik Office services (meetings, email, notes, tasks) as LLM tools; built agents on the OpenAI Agents SDK for cross-service workflow orchestration, with human-in-the-loop checkpoints and logging.",
+        "Shipped an OAuth 2.0 (PKCE) server and public REST API (56 endpoints, OpenAPI 3) for a multi-tenant SaaS without modifying existing controllers; validated via 27 E2E suites and mutation testing."
       ],
-      skills: ["PyTorch", "Python", "AWS", "Backend Development"],
+      skills: ["Whisper", "Pyannote", "MCP", "OpenAI Agents SDK", "OAuth 2.0", "FastAPI"],
+      webLink: "https://qikoffice.com/"
+    },
+    {
+      title: "Software Developer Trainee",
+      company: "Qik Office",
+      logo: qikLogo,
+      date: "Aug 2024 - June 2026",
+      description: [
+        "Architected a real-time transcription service with per-meeting dynamic port allocation; an SFU routes audio via FFmpeg to Faster-Whisper, streaming live transcripts over WebSockets.",
+        "Implemented GPU auto-scaling via the DigitalOcean API, provisioning new instances at 85% VRAM utilization and sustaining 8–10 concurrent meetings per GPU.",
+        "Sole-owned the CPU-to-GPU migration on DigitalOcean: provisioned instances, configured CUDA and Python runtimes, and deployed all inference services, cutting processing time from 40+ min to 8–10 min (5× speedup)."
+      ],
+      skills: ["Faster-Whisper", "FFmpeg", "WebSockets", "CUDA", "DigitalOcean"],
       webLink: "https://qikoffice.com/"
     },
     {

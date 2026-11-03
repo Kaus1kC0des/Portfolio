@@ -1,24 +1,30 @@
 import React from "react";
 import { Col, Row, Card } from "react-bootstrap";
-import { DiPython } from "react-icons/di";
-import { SiGit, SiMysql, SiMongodb, SiScikitlearn, SiFlask, SiPytorch, SiWeightsandbiases, SiLinux, SiAmazonaws, SiDigitalocean, SiFastapi, SiChainlink, SiOpencv } from "react-icons/si";
+import { DiPython, DiJava } from "react-icons/di";
+import { SiGit, SiMysql, SiMongodb, SiFlask, SiPytorch, SiAmazonaws, SiDigitalocean, SiFastapi, SiChainlink, SiOpenai, SiPostgresql, SiRedis, SiDocker, SiNodedotjs, SiJavascript, SiGooglecloud, SiGithubactions, SiNvidia } from "react-icons/si";
 
 function Techstack() {
   const techs = [
     { icon: <DiPython />, name: "Python" },
     { icon: <SiPytorch />, name: "PyTorch" },
-    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiOpenai />, name: "OpenAI / LLMs" },
     { icon: <SiChainlink />, name: "LangChain" },
-    { icon: <SiScikitlearn />, name: "Scikit-learn" },
-    { icon: <SiOpencv />, name: "OpenCV" },
+    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiNodedotjs />, name: "Node.js" },
+    { icon: <SiJavascript />, name: "JavaScript" },
+    { icon: <DiJava />, name: "Java" },
     { icon: <SiFlask />, name: "Flask" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
     { icon: <SiMongodb />, name: "MongoDB" },
     { icon: <SiMysql />, name: "MySQL" },
-    { icon: <SiGit />, name: "Git" },
-    { icon: <SiLinux />, name: "Linux" },
+    { icon: <SiRedis />, name: "Redis" },
+    { icon: <SiDocker />, name: "Docker" },
     { icon: <SiAmazonaws />, name: "AWS" },
+    { icon: <SiGooglecloud />, name: "GCP" },
     { icon: <SiDigitalocean />, name: "DigitalOcean" },
-    { icon: <SiWeightsandbiases />, name: "Weights & Biases" },
+    { icon: <SiNvidia />, name: "CUDA" },
+    { icon: <SiGithubactions />, name: "GitHub Actions" },
+    { icon: <SiGit />, name: "Git" },
   ];
 
   return (

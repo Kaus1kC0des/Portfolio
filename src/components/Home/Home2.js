@@ -19,42 +19,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I believe… 🤷‍♂️
+              I'm an <b className="purple">AI Product Engineer</b> at Qik Office,
+              shipping production speech, LLM-agent and API systems.
               <br />
-              <br />I am familiar with classics like
+              <br />I take AI features end to end:
               <i>
-                <b className="purple">  Python, PyTorch and AWS. </b>
+                <b className="purple"> the models, the GPU infrastructure they run on, and the APIs and agents that expose them.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are solving challenging problems using &nbsp;
-              <i>
-                <b className="purple">Machine Learning and Artificial Intelligence </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Finance, Healthcare and Education.
-                </b>
-              </i>
+              Lately that's meant a
+              <b className="purple"> Whisper + Pyannote diarization pipeline </b>
+              used by 95% of our enterprise customers, a custom
+              <b className="purple"> MCP server </b> with LLM agents on the
+              <b className="purple"> OpenAI Agents SDK</b>, and a public
+              <b className="purple"> OAuth 2.0 REST API</b>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing solutions
-              with
+              My day-to-day stack is
               <i>
-                <b className="purple"> Python, </b>
+                <b className="purple"> Python, FastAPI, PyTorch, PostgreSQL, Redis and Docker</b>
               </i>
-              <i>
-              <b className="purple">
-                  {" "}
-                  PyTorch
-                </b>
-              </i>
-              &nbsp; and other
-              <b className="purple"> Web Frameworks </b>
-              like
-              <i>
-                <b className="purple"> Flask</b>
-              </i>
+              , running on <b className="purple">AWS, GCP and DigitalOcean</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

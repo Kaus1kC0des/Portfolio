@@ -11,9 +11,15 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">KAUSIK D </span>
             from <span className="purple">  Chennai, India.</span>
             <br />
-            I am currently employed as a developer intern at Qik Meetings.
+            I am currently working as an AI Product Engineer at Qik Office,
+            where I started as a Software Developer Trainee in Aug 2024.
             <br />
-            I am pursuing my B.Tech in AI and Machine Learning at St. Joseph's College of Engineering.
+            I completed my B.Tech in AI and Machine Learning at St. Joseph's
+            College of Engineering in May 2026 (GPA 8.06 / 10).
+            <br />
+            <br />
+            A couple of highlights: <span className="purple">Winner, IIT Madras ML Challenge</span> (2023)
+            and <span className="purple">Top 5, BITS Pilani Hackathon</span> (2025).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

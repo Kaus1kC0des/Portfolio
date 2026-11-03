@@ -24,13 +24,30 @@ function Projects() {
                         <ProjectCard
                             imgPath={brainImage}
                             isBlog={false}
-                            title="RAG Knowledge Base"
-                            description="Used various academic documents as sources and built a RAG pipeline that let's students learn and interact with their study materials."
+                            title="RAG Study Assistant"
+                            description="A RAG study assistant for college courses: PDF chunking and vector embeddings in MongoDB vector search, with Gemini generating unit-scoped answers with source citations. Upload, semantic search and chat are served via async FastAPI REST APIs with PostgreSQL and Redis, with guardrails for unsafe LLM outputs. Built with LangChain and Next.js."
                             ghLink="https://github.com/Kaus1kC0des/rag-knowledge-base"
-                            demoLink="https://kausik-plant-disease-model-5cdf266921c4.herokuapp.com/"
                         />
                     </Col>
-                    
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            isBlog={false}
+                            title="Project Nethran"
+                            description="AI assistive eyewear using YOLO-World (object detection) and CNNs (sign language recognition), deployed via quantized models on a Raspberry Pi 4 with a Flask inference backend for real-time edge inference."
+                            ghLink="https://github.com/thepersonilike13/EyeGlass"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={voice}
+                            isBlog={false}
+                            title="Speaker Diarization Pipeline"
+                            description="Built at Qik Office: a speech/NLP transcription and diarization pipeline (Whisper + Pyannote), evaluated at 95% speaker-attribution accuracy and 7–9 min per audio hour, and adopted by 95% of enterprise customers."
+                        />
+                    </Col>
+
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={jigsawImage}
@@ -62,15 +79,6 @@ function Projects() {
               Experimented with different custom made neural network achitectures and deployed the model using Flask and Heroku. The model was able to predict the presence of tumor with an accuracy of 95%."
                             ghLink="https://github.com/Kaus1kC0des/Tumor-Detection-Deep-Learning.git"
                             demoLink="https://kausik-tumor-classification-4308c6d38f8e.herokuapp.com/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={voice}
-                            isBlog={false}
-                            title="Voice Diarization"
-                            description="Built a tool to accurately transcribe Who Spoke What in an offline/in-person meeting using faster-whisper and PyTorch. Also built and maintained the infrastructure to run the API to ensure seamlesss experience to our users and maintain low latency."
                         />
                     </Col>
 
