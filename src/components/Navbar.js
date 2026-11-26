@@ -12,7 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import { MdWork } from "react-icons/md";
+import { MdWork, MdOutlineArticle } from "react-icons/md";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -88,6 +88,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/publications"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdOutlineArticle style={{ marginBottom: "2px" }} /> Publications
               </Nav.Link>
             </Nav.Item>
 
